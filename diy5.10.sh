@@ -18,7 +18,7 @@ sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=5.10/g' ./target/linux/x86/Makef
 # Add a feed source
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 # sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
-sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.conf.default
+# sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.conf.default
 # git clone https://github.com/fw876/helloworld.git package/ssr
 git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
@@ -34,7 +34,7 @@ git clone https://github.com/firkerword/luci-app-alist.git package/luci-app-alis
 git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/passwall
 # git clone https://github.com/dwj0/luci-app-sms-tool.git package/luci-app-sms-tool
 # git clone -b master https://github.com/vernesong/OpenClash.git package/OpenClash
-svn co https://github.com/linkease/istore/trunk/luci/luci-app-store package/luci-app-store
+# svn co https://github.com/linkease/istore/trunk/luci/luci-app-store package/luci-app-store
 # sed -i 's/luci-lib-ipkg/luci-base/g' package/luci-app-store/Makefile
 # svn co https://github.com/linkease/istore-ui/trunk/app-store-ui package/app-store-ui
 svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/aliyundrive-webdav
