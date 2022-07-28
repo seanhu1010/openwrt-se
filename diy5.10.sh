@@ -42,4 +42,4 @@ git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 git clone https://github.com/sirpdboy/luci-app-netdata package/netdata
-git clone https://github.com/kenzok8/luci-app-ssr-plus package/ssr-plus
+# git clone https://github.com/kenzok8/luci-app-ssr-plus package/ssr-plus
