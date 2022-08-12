@@ -17,7 +17,7 @@ sed -i "s/DISTRIB_DESCRIPTION='OpenWrt '/DISTRIB_DESCRIPTION='OpenWrt-Lite '/g" 
 curl -fsSL  https://raw.githubusercontent.com/seanhu1010/cc/main/cus_config.yaml > ./package/openwrt-mos/luci-app-mosdns/root/etc/mosdns/cus_config.yaml
 # wget https://raw.githubusercontent.com/firkerword/KPR/main/cus_config.yaml -O ./package/openwrt-mos/luci-app-mosdns/root/etc/mosdns/cus_config.yaml
 # Modify default IP
-sed -i 's/192.168.1.1/10.1.1.2/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/10.1.1.3/g' package/base-files/files/bin/config_generate
 rm -rf ./feeds/luci/applications/luci-app-qbittorrent
 rm -rf ./feeds/luci/applications/luci-app-serverchan
 # rm -rf ./package/diy-ziyong/adguardhome
