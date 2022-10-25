@@ -29,7 +29,7 @@ sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=5.10/g' ./target/linux/x86/Makef
 #git clone https://github.com/sbwml/luci-app-alist.git package/luci-app-alist
 # git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
 git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
-git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/passwall
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-passwall package/luci-app-passwall
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-openclash package/luci-app-openclash
 svn co https://github.com/kenzok8/openwrt-packages/trunk/adguardhome package/adguardhome
